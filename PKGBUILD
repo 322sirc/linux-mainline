@@ -6,7 +6,7 @@
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 
-pkgbase=linux-mainline-14iap7              # Build stock -ARCH kernel
+pkgbase=linux-mainline              # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
 _tag=v5.19-rc7
 pkgver=5.19rc7
