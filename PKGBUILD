@@ -24,8 +24,8 @@ options=('!strip')
 _srcname=linux-mainline
 source=(
   "$_srcname::git+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git#tag=$_tag"
-   config         # the main kernel config file
-  "bottomspeakers-for-14iap7-kernel-518.patch"
+   config         # kernel config file custome for 16IAP7
+   bottomspeakers-16IAP7.patch
 )
 validpgpkeys=(
   'ABAF11C65A2970B130ABE3C479BE3E4300411886'  # Linus Torvalds
